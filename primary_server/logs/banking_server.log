@@ -1,0 +1,22 @@
+##### This file contains some logs of the server as example ########
+
+2026-10-23 17:16:58,116 INFO Client connected: 10.172.19.136:52022
+2026-10-23 17:16:58,122 INFO Request processed | request_id=0d54e9a0-0a75-4c2d-8a9e-ee750e1a8517 | client_ip=10.172.19.136 | client_port=52022 | action=balance | account_id=A1001 | timestamp=2026-10-23T13:46:58.122685+00:00 | result=success | latency_ms=5.551 | request={"action": "balance", "account": "A1001", "request_id": "0d54e9a0-0a75-4c2d-8a9e-ee750e1a8517"} | response={"status": "success", "account_id": "A1001", "balance": 10.0}
+2026-10-23 17:16:58,129 INFO Client disconnected: 10.172.19.136:52022
+2026-10-23 17:16:59,128 INFO Client connected: 10.172.19.136:50236
+2026-10-23 17:16:59,133 INFO Request processed | request_id=5c3a5b6e-01a5-4f1f-b312-9c48b23ab985 | client_ip=10.172.19.136 | client_port=50236 | action=balance | account_id=A1001 | timestamp=2026-10-23T13:46:59.133000+00:00 | result=success | latency_ms=3.140 | request={"action": "balance", "account": "A1001", "request_id": "5c3a5b6e-01a5-4f1f-b312-9c48b23ab985"} | response={"status": "success", "account_id": "A1001", "balance": 10.0}
+2026-10-23 17:16:59,136 INFO Client disconnected: 10.172.19.136:50236
+2026-10-23 17:17:00,144 INFO Client connected: 10.172.19.136:50238
+2026-10-23 17:17:00,150 INFO Request processed | request_id=8e3c6db6-2b3a-49cf-92fa-385d4006f3f7 | client_ip=10.172.19.136 | client_port=50238 | action=balance | account_id=A1001 | timestamp=2026-10-23T13:47:00.150818+00:00 | result=success | latency_ms=4.823 | request={"action": "balance", "account": "A1001", "request_id": "8e3c6db6-2b3a-49cf-92fa-385d4006f3f7"} | response={"status": "success", "account_id": "A1001", "balance": 10.0}
+2026-10-23 17:17:00,154 INFO Client disconnected: 10.172.19.136:50238
+2026-10-23 17:17:01,156 INFO Client connected: 10.172.19.136:50244
+2026-10-23 17:17:01,161 INFO Request processed | request_id=9f1049b7-ee0e-4fec-8f70-10496c6f89f3 | client_ip=10.172.19.136 | client_port=50244 | action=balance | account_id=A1001 | timestamp=2026-10-23T13:47:01.160069+00:00 | result=success | latency_ms=2.816 | request={"action": "balance", "account": "A1001", "request_id": "9f1049b7-ee0e-4fec-8f70-10496c6f89f3"} | response={"status": "success", "account_id": "A1001", "balance": 10.0}
+2026-10-23 17:17:01,164 INFO Client disconnected: 10.172.19.136:50244
+2026-10-23 17:17:01,637 INFO Banking server stopped by keyboard interrupt.
+2026-10-23 17:17:46,430 INFO Recovery complete: 5 accounts and 608 transaction records synchronized.
+2026-10-23 17:17:46,430 INFO Banking server listening on 0.0.0.0:5000
+2026-10-23 17:17:49,387 INFO Client connected: 10.172.19.136:35052
+2026-10-23 17:17:49,388 INFO Client disconnected: 10.172.19.136:35052
+2026-10-23 17:17:54,462 INFO Client connected: 10.172.19.136:35064
+2026-10-23 17:17:54,467 INFO Request processed | request_id=a04114dc-910a-40ce-b392-6f490d07f6df | client_ip=10.172.19.136 | client_port=35064 | action=balance | account_id=A1001 | timestamp=2026-10-23T13:47:54.467058+00:00 | result=success | latency_ms=3.701 | request={"action": "balance", "account": "A1001", "request_id": "a04114dc-910a-40ce-b392-6f490d07f6df"} | response={"status": "success", "account_id": "A1001", "balance": 20.0}
+2026-10-23 17:17:54,471 INFO Client disconnected: 10.172.19.136:35064
