@@ -1,0 +1,5 @@
+# Mini Banking Transaction Server
+# Python version: 3.10 or newer recommended
+# All imports currently used are from the Python standard library.
+# No third-party Python packages are required.
+
