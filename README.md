@@ -62,18 +62,28 @@ The system is designed to run across separate virtual machines.
    python replication_server.py
    ```
 
-4. **Start the primary server.** On the primary server VM, run:
+4. **Start the primary server.** At the first time for initializing the database run:
 
    ```bash
-   python server.py
+   python3 -c "from database import initialize_database; initialize_database();               print('Database initialized successfully')"
    ```
-5. **Start the backup server.** on the backup server VM, run:
-   
+ then primary server VM, run:
+
+   ```bash
+   python3 server.py
+   ```
+5. **Start the backup server.** At the first time for initializing the database on the backup server VM, copy the bank.db created on the primary server VM to the backup server VM and run:
+
+   ```bash
+   python3 -c "from database import initialize_database, get_balance; print('A1001:', get_balance('A1001')); print('A1002:', get_balance('A1002')); print('A1003:', get_balance('A1003')); print('A1004:', get_balance('A1004')); print('A1005:', get_balance('A1005'))"
+   ```
+   to make shure of the in sync databases. restart the server.py while the replication server is still running to get the snapshot of the database created.
+   then run:
    ```bash
    python backup_banking_server.py
    ```
    
-6. **Start the client.** On the client VM, run:
+5. **Start the client.** On the client VM, run:
 
    ```bash
    python client.py
