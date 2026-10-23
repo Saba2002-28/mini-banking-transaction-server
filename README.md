@@ -77,7 +77,7 @@ The system is designed to run across separate virtual machines.
    ```bash
    python3 -c "from database import initialize_database, get_balance; print('A1001:', get_balance('A1001')); print('A1002:', get_balance('A1002')); print('A1003:', get_balance('A1003')); print('A1004:', get_balance('A1004')); print('A1005:', get_balance('A1005'))"
    ```
-   to make shure of the in sync databases. restart the server.py while the replication server is still running to get the snapshot of the database created.
+   to make sure of the in sync databases. restart the server.py while the replication server is still running to get the snapshot of the database created.
    then run:
    ```bash
    python backup_banking_server.py
