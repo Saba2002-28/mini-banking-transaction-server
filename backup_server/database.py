@@ -57,7 +57,7 @@ def initialize_database():
                 )
             )
         """)
-
+		###### new accounts were added to the primary server and backup server later via replication snapshots.
         initial_accounts = [
             ("A1001", 1000.00),
             ("A1002", 2500.00),
