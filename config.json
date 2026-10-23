@@ -1,0 +1,8 @@
+
+{
+    "host": "0.0.0.0",
+    "port": 5000,
+    "max_clients": 5,
+    "database": "bank.db",
+    "log_file": "logs/server.log"
+}
